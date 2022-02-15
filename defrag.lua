@@ -1,3 +1,4 @@
 local bridge = peripheral.find("meBridge")
-
-print(bridge)
+local items = bridge.listItems()
+print("Bridge: ", bridge)
+print("Items: ", items)
